@@ -16,6 +16,13 @@
 		314AAA881EE6C43C0013FBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314AAA861EE6C43C0013FBB4 /* LaunchScreen.storyboard */; };
 		314AAA931EE6C43C0013FBB4 /* iDrift0606Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAA921EE6C43C0013FBB4 /* iDrift0606Tests.m */; };
 		314AAA9E1EE6C43C0013FBB4 /* iDrift0606UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAA9D1EE6C43C0013FBB4 /* iDrift0606UITests.m */; };
+		314AAAAD1EE6C5B20013FBB4 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAAAC1EE6C5B20013FBB4 /* SecondTableViewController.m */; };
+		314AAAB01EE6C5C50013FBB4 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAAAF1EE6C5C50013FBB4 /* ThirdTableViewController.m */; };
+		314AAAB31EE6DAC40013FBB4 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAAB21EE6DAC40013FBB4 /* AddEventViewController.m */; };
+		314AAAE41EE875FE0013FBB4 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAAE31EE875FE0013FBB4 /* Event.m */; };
+		314AAAE71EE891F10013FBB4 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 314AAAE61EE891F10013FBB4 /* DataHelper.m */; };
+		314AAAEA1EE899D20013FBB4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 314AAAE81EE899D20013FBB4 /* DataModel.xcdatamodeld */; };
+		314AAAED1EE8C6B50013FBB4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 314AAAEC1EE8C6B50013FBB4 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,18 @@
 		314AAA991EE6C43C0013FBB4 /* iDrift0606UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDrift0606UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		314AAA9D1EE6C43C0013FBB4 /* iDrift0606UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDrift0606UITests.m; sourceTree = "<group>"; };
 		314AAA9F1EE6C43C0013FBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314AAAAB1EE6C5B20013FBB4 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		314AAAAC1EE6C5B20013FBB4 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		314AAAAE1EE6C5C50013FBB4 /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		314AAAAF1EE6C5C50013FBB4 /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		314AAAB11EE6DAC40013FBB4 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		314AAAB21EE6DAC40013FBB4 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		314AAAE21EE875FE0013FBB4 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		314AAAE31EE875FE0013FBB4 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		314AAAE51EE891F10013FBB4 /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		314AAAE61EE891F10013FBB4 /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+		314AAAE91EE899D20013FBB4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		314AAAEC1EE8C6B50013FBB4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314AAAED1EE8C6B50013FBB4 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +108,7 @@
 				314AAA911EE6C43C0013FBB4 /* iDrift0606Tests */,
 				314AAA9C1EE6C43C0013FBB4 /* iDrift0606UITests */,
 				314AAA731EE6C43C0013FBB4 /* Products */,
+				314AAAEB1EE8C6B50013FBB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,14 +128,25 @@
 				314AAA781EE6C43C0013FBB4 /* AppDelegate.h */,
 				314AAA791EE6C43C0013FBB4 /* AppDelegate.m */,
 				314AAA7B1EE6C43C0013FBB4 /* FirstViewController.h */,
+				314AAAAB1EE6C5B20013FBB4 /* SecondTableViewController.h */,
+				314AAAAC1EE6C5B20013FBB4 /* SecondTableViewController.m */,
+				314AAAAE1EE6C5C50013FBB4 /* ThirdTableViewController.h */,
+				314AAAAF1EE6C5C50013FBB4 /* ThirdTableViewController.m */,
 				314AAA7C1EE6C43C0013FBB4 /* FirstViewController.m */,
+				314AAAB11EE6DAC40013FBB4 /* AddEventViewController.h */,
+				314AAAB21EE6DAC40013FBB4 /* AddEventViewController.m */,
 				314AAA7E1EE6C43C0013FBB4 /* SecondViewController.h */,
 				314AAA7F1EE6C43C0013FBB4 /* SecondViewController.m */,
+				314AAAE51EE891F10013FBB4 /* DataHelper.h */,
+				314AAAE61EE891F10013FBB4 /* DataHelper.m */,
+				314AAA751EE6C43C0013FBB4 /* Supporting Files */,
 				314AAA811EE6C43C0013FBB4 /* Main.storyboard */,
 				314AAA841EE6C43C0013FBB4 /* Assets.xcassets */,
 				314AAA861EE6C43C0013FBB4 /* LaunchScreen.storyboard */,
 				314AAA891EE6C43C0013FBB4 /* Info.plist */,
-				314AAA751EE6C43C0013FBB4 /* Supporting Files */,
+				314AAAE81EE899D20013FBB4 /* DataModel.xcdatamodeld */,
+				314AAAE21EE875FE0013FBB4 /* Event.h */,
+				314AAAE31EE875FE0013FBB4 /* Event.m */,
 			);
 			path = iDrift0606;
 			sourceTree = "<group>";
@@ -143,6 +175,14 @@
 				314AAA9F1EE6C43C0013FBB4 /* Info.plist */,
 			);
 			path = iDrift0606UITests;
+			sourceTree = "<group>";
+		};
+		314AAAEB1EE8C6B50013FBB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314AAAEC1EE8C6B50013FBB4 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314AAAEA1EE899D20013FBB4 /* DataModel.xcdatamodeld in Sources */,
 				314AAA801EE6C43C0013FBB4 /* SecondViewController.m in Sources */,
+				314AAAB31EE6DAC40013FBB4 /* AddEventViewController.m in Sources */,
+				314AAAB01EE6C5C50013FBB4 /* ThirdTableViewController.m in Sources */,
+				314AAAE41EE875FE0013FBB4 /* Event.m in Sources */,
+				314AAAE71EE891F10013FBB4 /* DataHelper.m in Sources */,
 				314AAA7A1EE6C43C0013FBB4 /* AppDelegate.m in Sources */,
 				314AAA7D1EE6C43C0013FBB4 /* FirstViewController.m in Sources */,
 				314AAA771EE6C43C0013FBB4 /* main.m in Sources */,
+				314AAAAD1EE6C5B20013FBB4 /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +568,7 @@
 				314AAAA41EE6C43C0013FBB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		314AAAA51EE6C43C0013FBB4 /* Build configuration list for PBXNativeTarget "iDrift0606Tests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +577,7 @@
 				314AAAA71EE6C43C0013FBB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		314AAAA81EE6C43C0013FBB4 /* Build configuration list for PBXNativeTarget "iDrift0606UITests" */ = {
 			isa = XCConfigurationList;
@@ -538,8 +586,22 @@
 				314AAAAA1EE6C43C0013FBB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		314AAAE81EE899D20013FBB4 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				314AAAE91EE899D20013FBB4 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 314AAAE91EE899D20013FBB4 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 314AAA6A1EE6C43C0013FBB4 /* Project object */;
 }
