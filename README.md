@@ -6,7 +6,8 @@ This iDrift mobile app introduces feature like checking in automobile events suc
 This is a 08723 Mobile application development course example, and the copyright is under Saeyoung Jeong. 
 ## iOS version Architecture 
 This app follows MVC architecture. 
-[!iOS archiecture](ios1.png)
-[!iOS archiecture](ios2.png)
+<img src = "ios1.png" width="300">
+<img src = "ios2.png" width="300">
+
 
 
